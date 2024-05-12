@@ -1,3 +1,4 @@
+// Main
 package token
 
 type TokenType string
