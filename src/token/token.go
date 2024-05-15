@@ -27,8 +27,15 @@ const (
 	FUNCTION = "FUNCTION"
 	LET      = "LET"
 
-	PLUS   = "+"
-	ASSIGN = "="
+	ASSIGN   = "="
+	PLUS     = "+"
+	MINUS    = "-"
+	BANG     = "!"
+	ASTERISK = "*"
+	SLASH    = "/"
+
+	LT = "<"
+	GT = ">"
 )
 
 var keywords = map[string]TokenType{
