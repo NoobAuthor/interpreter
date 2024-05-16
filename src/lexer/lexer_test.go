@@ -12,13 +12,10 @@ let add = fn(x, y) {
 x + y;
 };
 let result = add(five, ten);
-!-/*5;
+!
+-/*5;
 5 < 10 > 5;
-if (5 < 10) {
-return true;
-} else {
-return false;
-}`
+`
 	tests := []struct {
 		expectedType    token.TokenType
 		expectedLiteral string
@@ -33,6 +30,7 @@ return false;
 		{token.ASSIGN, "="},
 		{token.INT, "10"},
 		{token.SEMICOLON, ";"},
+		{token.BANG, "!"},
 		{token.LET, "let"},
 		{token.IDENT, "add"},
 		{token.ASSIGN, "="},

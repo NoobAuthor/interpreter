@@ -24,10 +24,17 @@ const (
 	LBRACE = "{"
 	RBRACE = "}"
 
+	RBRACKET = "]"
+	LBRACKET = "["
+	STRING   = "STRING"
+
+	COLON    = ":"
 	FUNCTION = "FUNCTION"
 	LET      = "LET"
 
 	ASSIGN   = "="
+	EQUAL    = "="
+	NOTEQUAL = "!="
 	PLUS     = "+"
 	MINUS    = "-"
 	BANG     = "!"
