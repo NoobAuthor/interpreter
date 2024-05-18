@@ -38,7 +38,7 @@ const (
 	RETURN   = "RETURN"
 
 	ASSIGN   = "="
-	EQUAL    = "="
+	EQUAL    = "=="
 	NOTEQUAL = "!="
 	PLUS     = "+"
 	MINUS    = "-"
