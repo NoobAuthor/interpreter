@@ -1,5 +1,6 @@
 package lexer
 
+// Lexer
 import (
 	"NoobAuthor/interpreter/src/token"
 )
